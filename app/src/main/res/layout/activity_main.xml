@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pages"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Weight in kg"
+
+        android:background="@drawable/rounded_corner"
+        android:textStyle="bold|italic"
+        android:padding="20sp"
+        android:id="@+id/edweigth"
+        android:ems="10"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:hint="heigth in feet"
+        android:padding="20sp"
+        android:background="@drawable/rounded_corner"
+        android:textStyle="bold|italic"
+        android:id="@+id/edheight"
+        android:ems="10"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="heigth in inch"
+
+        android:background="@drawable/rounded_corner"
+        android:id="@+id/edinch"
+        android:padding="20sp"
+        android:textStyle="bold|italic"
+        android:ems="10"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btncal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="calculate BMI"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="30dp"
+        android:id="@+id/txt1"
+        />
+
+
+
+</LinearLayout>
